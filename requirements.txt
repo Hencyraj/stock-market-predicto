@@ -1,0 +1,10 @@
+streamlit
+nsepython
+pandas
+numpy
+scikit-learn
+tensorflow
+plotly
+feedparser
+nltk
+kaleido
