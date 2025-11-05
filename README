@@ -1,0 +1,8 @@
+This project predicts future stock prices using real-time NSE market data without requiring any downloaded dataset. 
+The system combines both Machine Learning (K-Nearest Neighbors) and Deep Learning (LSTM Neural Networks) to forecast 
+short-term stock price movement. Additionally, the app performs news sentiment analysis using Moneycontrol RSS feeds to 
+understand market mood and influence on stock direction.
+
+The dashboard is built with Streamlit and features a modern neon-style user interface with interactive candlestick charts. 
+Users can control forecasting parameters like historical data range, prediction horizon, KNN neighbors, LSTM lookback window, 
+and training epochs. The application also displays model accuracy using MAE (Mean Absolute Error) to compare performance.
