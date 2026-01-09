@@ -1,8 +1,54 @@
-This project predicts future stock prices using real-time NSE market data without requiring any downloaded dataset. 
-The system combines both Machine Learning (K-Nearest Neighbors) and Deep Learning (LSTM Neural Networks) to forecast 
-short-term stock price movement. Additionally, the app performs news sentiment analysis using Moneycontrol RSS feeds to 
-understand market mood and influence on stock direction.
+# 📈 NSE Stock Predictor
 
-The dashboard is built with Streamlit and features a modern neon-style user interface with interactive candlestick charts. 
-Users can control forecasting parameters like historical data range, prediction horizon, KNN neighbors, LSTM lookback window, 
-and training epochs. The application also displays model accuracy using MAE (Mean Absolute Error) to compare performance.
+A web-based stock price prediction application built using Streamlit that predicts NSE stock prices using Machine Learning (KNN), Deep Learning (LSTM), and News Sentiment Analysis.
+
+---
+
+## 🧠 Project Overview
+
+This application fetches historical NSE stock data, applies feature engineering, predicts future stock prices using KNN and LSTM models, analyzes recent financial news sentiment, and visualizes everything through interactive charts.
+
+---
+
+## 🚀 Features
+
+- Real-time NSE stock data fetching  
+- Stock price prediction for upcoming days  
+- Machine Learning model (K-Nearest Neighbors)  
+- Deep Learning model (LSTM Neural Network)  
+- News-based sentiment analysis  
+- Interactive candlestick and prediction charts  
+- Modern dark-themed UI using Streamlit  
+
+---
+
+## 🛠️ Tech Stack
+
+- Programming Language: Python  
+- UI Framework: Streamlit  
+- Data Processing: Pandas, NumPy  
+- Visualization: Plotly  
+- Machine Learning: Scikit-learn  
+- Deep Learning: TensorFlow (Keras)  
+- NLP: NLTK (VADER Sentiment Analyzer)  
+- Data Source: NSE Python API  
+
+---
+
+## ⚙️ How It Works
+
+1. User enters an NSE stock symbol (example: TCS)
+2. Historical stock data is fetched from NSE
+3. Technical features such as lag values and moving averages are created
+4. KNN and LSTM models predict future stock prices
+5. Recent news headlines are analyzed for sentiment
+6. Results are displayed using charts and performance metrics
+
+---
+
+## ▶️ How to Run the Project
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/your-username/nse-stock-predictor.git
+cd nse-stock-predictor
